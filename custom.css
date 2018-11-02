@@ -23,13 +23,13 @@ footer {
 }
 
 #back-to-top {
-	position: absolute;
+	position: relative;
 	bottom: 20px;
 	right: 20px;
 }
 
 #back-to-top a {
-	color: #1E1E1E;
+	color: #333;
 }
 
 .jumbotron {
@@ -47,6 +47,37 @@ footer {
 	margin-bottom: 30px;
 	font-weight: 100;
 	padding: 0 50px;
+}
+
+.jumbotron .form-control {
+	height: 69px;
+	font-size: 36px;
+}
+
+.modal-content iframe {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.modal-content button.close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background-color: white;
+	font-size: 28px;
+	width: 30px;
+	opacity: 1;
+	border-radius: 24px;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+}
+
+.modal-dialog {
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	top: 50%;
+	margin-top: -173px;
 }
 
 .btn-lg {
